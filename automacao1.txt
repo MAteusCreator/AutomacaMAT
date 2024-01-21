@@ -9,5 +9,6 @@ print(lista_arquivos)
 
 for arquivos in lista_arquivos:
     if ".pdf" in arquivos:
-        merger.append("arquivos/nome_do_arquivo")
+        merger.append("arquivos/{}".format('arquivo'))
 
+merger.write("PDF Final.pdf")
